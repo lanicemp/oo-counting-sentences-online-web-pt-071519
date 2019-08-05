@@ -3,15 +3,11 @@ require 'pry'
 class String
 
   def sentence?
-   self.end_with?(".") ? true : false 
-   #  return true 
-   # self.@sentence.end_with?(".") ? true : false 
-    #binding.pry
-  #end 
+    self.end_with?(".") ? true : false 
   end
 
   def question?
-
+    self.end_with?("?") ? true : false 
   end
 
   def exclamation?
