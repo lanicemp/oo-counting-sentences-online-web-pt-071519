@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    new_sentence = []
     sentence_array = self.split(/[.!?]/)
 #noEmptyCities = cities.reject { |c| c.empty? }
     #sentence_array.reject(&:blank?)
