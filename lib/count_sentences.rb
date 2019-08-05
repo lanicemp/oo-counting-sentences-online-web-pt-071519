@@ -2,12 +2,12 @@ require 'pry'
 
 class String
 
-  def sentence?(array)
-   if array.end_with? (".")
-     return true 
+  def sentence?
+   self.end_with? (".") true : false 
+   #  return true 
    # self.@sentence.end_with?(".") ? true : false 
-    binding.pry
-  end 
+    #binding.pry
+  #end 
   end
 
   def question?
