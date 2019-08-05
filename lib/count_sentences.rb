@@ -3,8 +3,9 @@ require 'pry'
 class String
 
   def sentence?(sentence)
-    @sentence = sentence 
-    self.@sentence.end_with?(".") ? true : false 
+    
+#sentence = sentence 
+   # self.@sentence.end_with?(".") ? true : false 
     binding.pry
   end
 
