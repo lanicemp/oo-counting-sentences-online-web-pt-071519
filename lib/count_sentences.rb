@@ -19,7 +19,7 @@ class String
     sentence_array = self.split(/[.!?]/)
     sentence_array.length
     count_sentences - sentence_array.reject { |c| c.empty? }
-    new_sentence_array
+   
 #noEmptyCities = cities.reject { |c| c.empty? }
     #sentence_array.reject(&:blank?)
     #return sentence_array
