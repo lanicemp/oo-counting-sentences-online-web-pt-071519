@@ -26,6 +26,5 @@ class String
     #if sentence_array.include("").delete 
     
   #end 
-  end
-  count_sentences
+
 end
