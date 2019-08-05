@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(sentence)
-   if sentence.end_with? (".")
+  def sentence?(array)
+   if self.array.end_with? (".")
      return true 
    # self.@sentence.end_with?(".") ? true : false 
     binding.pry
