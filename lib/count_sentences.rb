@@ -25,6 +25,6 @@ class String
     #return sentence_array
     #if sentence_array.include("").delete 
     
-  #end 
+  end 
 
 end
