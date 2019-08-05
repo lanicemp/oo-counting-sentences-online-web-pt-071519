@@ -3,10 +3,11 @@ require 'pry'
 class String
 
   def sentence?(sentence)
-    "HI!".end_with?("!")
-#sentence = sentence 
+   if sentence.end_with? (".")
+     return true 
    # self.@sentence.end_with?(".") ? true : false 
     binding.pry
+  end 
   end
 
   def question?
