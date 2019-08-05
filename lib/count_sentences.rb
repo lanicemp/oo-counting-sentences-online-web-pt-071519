@@ -16,10 +16,10 @@ class String
 
   def count_sentences
     sentence_array = self.split(/[.!?]/)
-     count_sentences = sentence_array.reject { |c| c.empty? }
+     #count_sentences = sentence_array.reject { |c| c.empty? }
    sentence_array.length
 #noEmptyCities = cities.reject { |c| c.empty? }
-    #sentence_array.reject(&:blank?)
+  sentence_array.reject(&:empty?)
     #return sentence_array
     #if sentence_array.include("").delete 
     
